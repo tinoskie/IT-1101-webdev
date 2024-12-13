@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(black,#00ffea); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.picture{
+    position: relative;
+    height: 400px;
+    left: 60%;
+    top: 8rem;
+}
+
+.formal1{
+    position: relative;
+    height: 160px;
+    right: 38%;
+    bottom: 6rem;
+    border-radius: 140px;
+}
+
+.formal2{
+    position: relative;
+    height: 160px;
+    right: 28%;
+    bottom: 6rem;
+    border-radius: 140px;
+}
+
+.formal3{
+    position: relative;
+    height: 160px;
+    right: 18%;
+    bottom: 6rem;
+    border-radius: 140px;
+}
+
+.justine{
+    position: relative;
+    left: 24%;
+    bottom: 13rem;
+    font-size: large;
+}
+
+.bryner{
+    position: relative;
+    left: 43%;
+    bottom: 17rem;
+    font-size: large;
+}
+
+.eze{
+    position: relative;
+    left: 68%;
+    bottom: 20rem;
+    font-size: large;
+}
+
+.text{
+    position: relative;
+    bottom:18rem;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    background-color: aliceblue;
+    padding:5px;
+    width: 95%;
+    margin-left: 23px ;
+    border-radius: 100px;
+}

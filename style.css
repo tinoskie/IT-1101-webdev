@@ -1,0 +1,552 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /*url(Background-image1.png);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*min-height: 100vh;*/
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.header{ 
+  position: sticky; 
+  top: 0;            
+  z-index: 10;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 2px solid #000000;
+}
+
+.logo-pic .logo{
+    height: 50px;
+}
+
+.logo-pic{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    right: 15%;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+
+.homepage {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 3rem;
+    left: 10%;
+}
+
+.button{
+    position: relative;
+    top: 5rem;
+    left: 10%;
+}
+
+
+
+button{
+    padding: 10px 20px;
+    background-image: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    font-weight:30px;
+    font-size: 12px;
+    height: 35px;
+    border: none;
+    color: rgb(42, 253, 0);
+    border-radius: 25px;
+    /*box-shadow: -1px -1px 15px rgb(0, 0, 0), 1px 1px 15px rgb(0, 0, 0) ;*/
+    box-shadow: -1px -1px 10px rgb(2, 0, 0);
+}
+
+button:hover{
+    /*box-shadow: 1px 1px 1px rgb(25, 89, 173), -1px -1px px rgb(90, 208, 238);*/
+    box-shadow: 1px 1px 10px rgb(252, 252, 252), 1px 1px 10px rgb(107, 107, 107);
+    background-image: linear-gradient(white,rgb(202, 202, 202));
+    color: #000000;
+
+}
+
+.picture{
+    /*mix-blend-mode: multiply;*/
+    position: absolute;
+    height: 400px;
+    left: 60%;
+    top: 8rem;
+}
+
+.formal{
+    position: relative;
+    height: 100px;
+    left: 10%;
+    top: 3rem;
+    border-radius: 140px;
+}
+
+.formal2{
+    position: relative;
+    height: 100px;
+    left: 10%;
+    top: 3rem;
+    border-radius: 140px;
+}
+
+.formal3{
+    position: relative;
+    height: 100px;
+    left: 10%;
+    top: 3rem;
+    border-radius: 140px;
+}
+
+
+/* second Section*/
+
+.Skill {
+    padding: 20px;
+    color: rgb(5, 5, 5);
+    background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.918), rgba(114, 114, 114, 0.76), rgba(0, 0, 0, 0.719));
+    min-height: 100vh; 
+    margin-top: 12rem;
+    display: grid;
+    place-items: center;
+}
+.hh{
+    position: relative;
+    top:2rem ;
+    font-size: 40px;
+}
+
+.videoediting{
+    position: relative;
+    height: 12rem;
+    padding: 16px ;
+    border-radius: 70px;
+    bottom: 5rem;
+    mix-blend-mode: multiply;
+}
+
+.programming{
+    position: relative;
+    height: 12rem;
+    padding: 16px;
+    border-radius: 70px;
+    bottom: 5rem;  
+    mix-blend-mode: multiply;
+}
+
+.graphicdesign{
+    position: relative;
+    height: 12rem;
+    padding: 16px;
+    border-radius: 70px;
+    bottom:5rem;
+    mix-blend-mode: multiply;
+}
+
+.skillss{
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    position: relative;
+    bottom: 40px; 
+    height: 60%;
+}
+
+
+
+
+
+
+
+
+
+.Projects{
+    padding: 20px;
+    color: white;
+    background-color: #000000;
+    min-height: 100vh; 
+    align-items: center;
+}
+
+
+
+.WebDevelopment{
+    height: 12rem;
+    padding: 16px ;
+    border-radius: 70px;
+    position: relative;
+    top: 6rem;
+    left: 7%;
+}
+
+.Architecture{
+    height: 12rem;
+    padding: 16px;
+    border-radius: 70px; 
+    position: relative;
+    top: 6rem;
+    left: 7%;
+}
+
+.Rizallife{
+    height: 12rem;
+    padding: 16px;
+    border-radius: 70px;
+    position: relative;
+    top: 6rem;
+    left: 7%;
+}
+.ProjectT{
+    text-align: center;
+    position: relative;
+    top:5rem;
+    font-size: 60px;
+}
+.h11{
+    position:absolute;
+    right: 63rem ;
+    top: 97rem;
+    color: rgb(255, 255, 255);
+}
+
+.h22{
+    position:absolute;
+    right: 42rem ;
+    top: 97rem;
+    color: rgb(255, 255, 255);
+}
+
+.h33{
+    position:absolute;
+    right: 20rem ;
+    top: 97rem;
+    color: rgb(255, 255, 255);
+}
+.p11{
+    position: relative;
+    left:9%;
+    top: 4.50rem;
+}
+.p22{
+    position: relative;
+    left:38%;
+    top: 1.30rem;
+}
+.p33{
+    position: relative;
+    left:67%;
+    top: -2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Sdg{
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to right, black, rgb(0, 0, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.007)),url(climate3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.Sdgs{
+    position: relative; 
+    top:10rem;
+    justify-content: center;
+}
+
+.h1sdg{
+    position: relative; 
+    bottom:6rem;
+    font-size: xx-large;
+    left:3rem;
+}
+
+.paragraph-sdg{
+    font-size: large;
+    position: relative; 
+    bottom:6rem;
+    font-size: medium;
+    left:3rem;
+}
+.button2{
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+}
+
+
+
+button{
+    padding: 10px 20px;
+    background-image: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    font-weight:30px;
+    font-size: 12px;
+    height: 35px;
+    border: none;
+    color: rgb(0, 17, 250);
+    border-radius: 25px;
+    box-shadow: -1px -1px 10px rgb(2, 0, 0);
+}
+
+button:hover{
+    box-shadow: 1px 1px 10px rgb(252, 252, 252), 1px 1px 10px rgb(117, 117, 117);
+    background-image: linear-gradient(white,rgb(184, 184, 184));
+    color: #000000;
+
+}
+
+/*.contact{
+    padding: 20px;
+    color: white;
+    background-color: #333;
+    min-height: 100vh; 
+}*/
+
+.contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto 20px auto; 
+    width: 50%; /* Adjust the width of the form */
+    max-width: 600px; 
+    position: relative;
+    top: -50px;
+}
+.Contactus{
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 6rem;
+}
+label{
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form label{
+    font-size: 16px;
+    margin-bottom: 8px; 
+    text-align: left; 
+    width: 100%;
+}
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact li {
+    margin: 8px 0;
+}
+form input, form textarea {
+    width: 20rem; 
+    padding: 3px;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align:center; 
+    background-color: #45a049;
+}
+ 
+form textarea:hover{
+    background-color: white;
+}
+form input:hover{
+    background-color: white;
+}
+form textarea{
+    resize:vertical; 
+    height: 100px; 
+}
+form input[type="submit"] {
+    position: relative;
+    bottom: 20rem;
+    left: 15%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 12px 24px; 
+    font-size: 16px;
+}
+form input[type="submit"]:hover {
+    background-color: #df0000;
+}
+
+.p1{
+    position: relative;
+    left:45rem;
+    top: 5.50rem;
+    color: white;
+}
+.p2{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 45rem;
+    top: 6.75rem;
+}
+.p3{
+    color: white;
+    position: relative;
+    left: 45rem;
+    top: 8rem;
+}
+.p4{
+    color: white;
+    position: relative;
+    left: 20rem ;
+    top: 1rem;
+}
+
+.p5{
+    color: white;
+    position: relative;
+    left: 20rem ;
+    top: 5rem ;
+}
+.p6{
+    color: white;
+    position: relative;
+    left: 20rem ;
+    top: 8.50rem ;
+}
+.email{
+    color: white;
+    position: relative;
+    left: 36.50rem;
+    top: -5rem;
+}
+
+.picj{
+    position: relative;
+    height: 115px;
+    left: 13%;
+    bottom: 14rem;
+    border-radius: 140px;
+}
+
+.picb{
+    position: relative;
+    height: 115px;
+    left: -4.30%;
+    bottom: 6rem;
+    border-radius: 140px;
+}
+
+.pice{
+    position: relative;
+    height: 115px;
+    left: 4.47%;
+    bottom: -2rem;
+    border-radius: 140px;
+}
+
+#name{
+    position: relative;
+    bottom: 21rem;
+    left: 15%;
+}
+#email{
+    position: relative;
+    bottom: 21rem;
+    left: 15%;
+}
+#message{
+    position: relative;
+    bottom: 20rem;
+    left: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h1{
+    position:absolute;
+    right: 63rem ;
+    top: 67rem;
+    color: rgb(255, 255, 255);
+}
+
+.h2{
+    position:absolute;
+    right: 38rem ;
+    top: 67rem;
+    color: rgb(255, 255, 255);
+}
+
+.h3{
+    position:absolute;
+    right: 15rem ;
+    top: 67rem;
+    color: rgb(255, 255, 255);
+}

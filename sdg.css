@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(black,#00ffea, white); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.picture{
+    position: relative;
+    height: 400px;
+    left: 60%;
+    top: 8rem;
+}
+
+.globalwarming{
+    position: relative;
+    height: 160px;
+    right: 48%;
+    bottom: 20rem;
+    border-radius: 40px;
+}
+
+.deforestation{
+    position: relative;
+    height: 160px;
+    width: 270px;
+    right: 41%;
+    bottom: 20rem;
+    border-radius: 40px;
+}
+
+.fossilfuels{
+    position: relative;
+    height: 160px;
+    right: 34%;
+    bottom: 20rem;
+    border-radius: 40px;
+}
+
+.globalwarmingT{
+    position: relative;
+    left: 13.5%;
+    bottom: 27rem;
+    font-size: large;
+    color: white;
+}
+
+.deforestationT{
+    position: relative;
+    left: 42%;
+    bottom: 29.5rem;
+    font-size: large;
+    color: white;
+}
+
+.fossilfuelsT{
+    position: relative;
+    left: 70%;
+    bottom: 32rem;
+    font-size: large;
+    color: white;
+}
+
+.paragraph-sdg{
+    position: relative;
+    top:20rem;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
